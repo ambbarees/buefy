@@ -50,10 +50,10 @@
             @click.native="rightIconClick"/>
 
         <small
-            v-if="maxlength && hasCounter && type !== 'number'"
+            v-if="hasCounter && type !== 'number'"
             class="help counter"
             :class="{ 'is-invisible': !isFocused }">
-            {{ valueLength }} / {{ maxlength }}
+            {{ valueLength }} {{ maxlength? "/"+maxlength: "" }}
         </small>
     </div>
 </template>

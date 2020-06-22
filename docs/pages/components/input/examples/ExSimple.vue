@@ -1,7 +1,7 @@
 <template>
     <section>
         <b-field label="Name">
-            <b-input v-model="name"></b-input>
+            <b-input v-model="name" has-counter></b-input>
         </b-field>
 
         <b-field label="Email"

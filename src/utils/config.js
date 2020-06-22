@@ -31,7 +31,7 @@ let config = {
     defaultDatepickerMobileNative: true,
     defaultTimepickerMobileNative: true,
     defaultNoticeQueue: true,
-    defaultInputHasCounter: true,
+    defaultInputHasCounter: false,
     defaultTaginputHasCounter: true,
     defaultUseHtml5Validation: true,
     defaultDropdownMobileModal: true,
